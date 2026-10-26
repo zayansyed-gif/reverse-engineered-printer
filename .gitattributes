@@ -1,0 +1,3 @@
+# Preserve exact upstream snapshots and applicable patch context.
+/vendor/** -text -whitespace
+/patches/*.patch -text -whitespace

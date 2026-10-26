@@ -1,0 +1,25 @@
+{
+  "splix": {
+    "url": "https://github.com/OpenPrinting/splix.git",
+    "tag": "2.0.2",
+    "commit": "9bde257882a1ebcf15a97ff4685d34053383e3f8",
+    "license": "GPL-2.0",
+    "directory": "vendor/splix"
+  },
+  "jbigkit": {
+    "url": "https://www.cl.cam.ac.uk/~mgk25/git/jbigkit",
+    "tag": "v2.2",
+    "commit": "802dc4c558f36b3325dac329bf3beb291962baa3",
+    "license": "GPL-2.0-or-later",
+    "directory": "vendor/jbigkit"
+  },
+  "macos_cache_patch": {
+    "url": "https://github.com/theshiver/apple-silicon-printer-drivers/blob/main/build/splix-cache.patch",
+    "sha256": "031eccaf040346affb7df38a93640584b2e48f658613131ed248c90d6c62f0f7",
+    "directory": "patches/0001-macos-page-cache.patch",
+    "purpose": "CUPS TMPDIR support and stalled swapped-page retrieval",
+    "upstream_sha256": "22de8097ebd932299373e2fda0e4fb235d257b01e52fdab24d494beeb0c35526",
+    "local_modification_date": "2026-10-25",
+    "local_modification": "Dated modification notice added to patched cache.cpp; cache implementation retained."
+  }
+}
